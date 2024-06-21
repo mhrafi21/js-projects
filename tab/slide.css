@@ -13,9 +13,10 @@ body{
     overflow: hidden;
 }
 
+
 .tabs{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -31,6 +32,11 @@ body{
 .tab-links:hover{
     background-color: #e0e0e0;
 
+}
+
+.tab-links.active{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .tab-content {
