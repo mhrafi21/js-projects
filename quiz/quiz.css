@@ -47,3 +47,14 @@ ul{
  button:hover{
     background-color: #45a049;
  }
+
+ #notSelectError{
+    color: red;
+ }
+
+ #timer, #progress{
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+ }
